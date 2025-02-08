@@ -32,7 +32,12 @@
 - react-router-dom  
 - react-toastify  
 - multer  
-- (Add any other relevant packages)  
+- (Add any other relevant packages)
+
+  ### Live link
+  -frontend:https://forever-frontend-eosin-gamma.vercel.app/
+  -backend:https://forever-backend-pied.vercel.app/
+  -admin:https://forever-admin-self.vercel.app/
 
 ## 🚀 Installation & Setup  
 
