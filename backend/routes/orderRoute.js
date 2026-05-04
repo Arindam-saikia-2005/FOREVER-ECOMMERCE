@@ -20,13 +20,13 @@ orderRouter.post("/status", adminAuth, updateStatus);
 
 // Payment features
 orderRouter.post("/place",authUser,placeOrder);
-orderRouter.post("/stripe",authUser,placeOrderStripe)
-orderRouter.post("/razorpay",authUser,placeOrderRazorpay)
+// orderRouter.post("/stripe",authUser,placeOrderStripe)
+// orderRouter.post("/razorpay",authUser,placeOrderRazorpay)
 
 // User feature
-orderRouter.post("/userorders",authUser,userOrders)
+orderRouter.get("/userorders", authUser, userOrders);
 
 // verify payment
-orderRouter.post("/verifyRazorpay",authUser,verifyRazorpay);
+// orderRouter.post("/verifyRazorpay",authUser,verifyRazorpay);
 
 module.exports = orderRouter;
